@@ -1,0 +1,129 @@
+body {
+    background-color: #eb8989;
+    text-align: center;
+}
+
+
+.title-image{
+    object-fit: cover;
+    border-style: inset;
+    border: 1px solid grey;
+    border-radius: 5rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95%;
+    height: 90%;
+    display: initial;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+}
+
+.head-info {
+    color: rgb(53, 59, 44);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: ubuntu, cursive;
+}
+
+.big-head {
+    font-size: 6rem;
+    font-family: montserrat;
+    font-weight: 700;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(66, 15, 15);
+}
+
+.row {
+    position: absolute;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.nav-link {
+    text-decoration: solid; 
+    color: rgb(233, 238, 234);
+    font-size: 1.25rem;
+}
+
+.navbar-brand .image-section {
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: Ubuntu;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+
+.container-fluid {
+    padding: 5% 10% 2%;
+}
+
+
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: auto;
+    height: auto;
+    top: 20;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+/*for desktop*/
+.btn{
+    position: fixed;
+    bottom:70px;
+    right: 10%;
+    color:#FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+
+.pricing {
+    background-color: white;
+}
+
+#pricing {
+    
+    
+}
+
+.whatsapp-Icon {
+    margin-top: 16px
+ }
+/*for mobile*/
+@media screen and (max-width: 767px){
+    .whatsapp-icon {
+    margin-top:10px;
+    }
+    .whatsapp_float {
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        right: 10%;
+        font-size: 22px;
+    }
+}
+
+#pricing{
+    background-color:#FFF;
+}
+
+/* #testimonial {
+    position: absolute;
+} */
