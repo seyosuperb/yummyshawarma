@@ -1,45 +1,47 @@
 body {
-    background-color: #eb8989;
+    /* background-color: #eb8989; */
     text-align: center;
 }
 
+.title-page{
+    padding: 2.5%;
+}
 
-.title-image{
-    object-fit: cover;
+.t-image{
+    object-fit: fill;
     border-style: inset;
     border: 1px solid grey;
     border-radius: 5rem;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 95%;
+    width: 100%;
     height: 90%;
-    display: initial;
-    position: absolute;
-    top: 5%;
-    left: 2.5%;
+    padding: 2.5% ;
+    display: inherit;
+    position: relative;
+    
+    /* left: 2.5%; */
 }
 
-.head-info {
+.top-info {
     color: rgb(53, 59, 44);
     font-size: 1.5rem;
     font-weight: 600;
     font-family: ubuntu, cursive;
+    padding-bottom: 7%;
 }
 
-.big-head {
+.top-heading {
     font-size: 6rem;
     font-family: montserrat;
     font-weight: 700;
     color: white;
-    text-shadow: 4px 4px 4px rgb(66, 15, 15);
+    padding: 0 0 0% 10%;
+    text-align: left;
+    text-shadow: 10px 8px 8px rgb(66, 15, 15);
 }
 
-.row {
-    position: absolute;
-    text-align: left;
-    padding-left: 10%;
-    padding-bottom: 5%;
-}
+
 
 .nav-link {
     text-decoration: solid; 
@@ -47,26 +49,25 @@ body {
     font-size: 1.25rem;
 }
 
-.navbar-brand .image-section {
-    position: absolute;
+.navbar{
     font-size: 2.5rem;
     font-family: Ubuntu;
-    font-weight: 700;
-    padding-left: 10%;
-    padding-bottom: 5%;
+    font-weight: 500;
+    padding: 2% 0 0 0%;
+    /* padding-bottom: 5%; */
 }
 
 .nav-item {
-    padding: 0 12px;
+    padding: 0 0px;
 }
 
 
 .container-fluid {
-    padding: 5% 10% 2%;
+    padding: 0 5% 2%;
 }
 
 
-img.bg {
+/* img.bg {
     min-height: 100%;
     min-width: 1024px;
     width: auto;
@@ -80,10 +81,10 @@ img.bg {
         left: 50%;
         margin-left: -512px;
     }
-}
+} */
 
 /*for desktop*/
-.btn{
+.make-order{
     position: fixed;
     bottom:70px;
     right: 10%;
@@ -99,8 +100,8 @@ img.bg {
 }
 
 #pricing {
-    
-    
+    padding: 3% 6% 2%;
+        
 }
 
 .whatsapp-Icon {
@@ -122,8 +123,42 @@ img.bg {
 
 #pricing{
     background-color:#FFF;
+    padding: 5% 10%;
 }
 
-/* #testimonial {
-    position: absolute;
-} */
+
+/* testimonials section */
+
+#testimonial {
+    background-color: #f1a8a8;
+    max-height: max-content;
+    
+}
+
+.carousel-inner{
+    padding: 5% 15%;
+}
+
+
+
+.testimonial-image {
+    width: 10%;
+    margin: 3%;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+/* footer section */
+#footer {
+    padding: 2% 20% 2%;
+}
+
+
+.footer-logo {
+    padding: 0 10px;
+}
