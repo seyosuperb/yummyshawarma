@@ -18,9 +18,18 @@ body {
     height: 90%;
     padding: 2.5% ;
     display: inherit;
-    position: relative;
+    position: relative;    
     
-    /* left: 2.5%; */
+}
+
+@media screen and (max-width: 700px) {
+    
+}
+
+
+.name {
+    padding: 0 0 4% 7%;
+    text-align: left;
 }
 
 .top-info {
@@ -28,7 +37,7 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: ubuntu, cursive;
-    padding-bottom: 7%;
+    
 }
 
 .top-heading {
@@ -36,8 +45,7 @@ body {
     font-family: montserrat;
     font-weight: 700;
     color: white;
-    padding: 0 0 0% 10%;
-    text-align: left;
+    
     text-shadow: 10px 8px 8px rgb(66, 15, 15);
 }
 
@@ -67,21 +75,54 @@ body {
 }
 
 
-/* img.bg {
+/* .img.bg {
     min-height: 100%;
     min-width: 1024px;
     width: auto;
     height: auto;
     top: 20;
     left: 0;
+} */
+
+/* for tablet */
+@media screen and (max-width: 1000px) {
+    t-image {
+        height: 600px;
+    }    
 }
 
-@media screen and (max-width: 1024px) {
-    img.bg {
-        left: 50%;
-        margin-left: -512px;
+@media screen and (max-width: 800px) {
+    .top-heading {
+        font-size: 4rem;
     }
-} */
+    .top-info {
+        font-size: 1.5rem;
+    }
+    .t-image {
+       object-fit: cover;
+       height: 400px;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 650px) {
+    .top-heading {
+        font-size: 3.5rem;
+    }    
+    .top-info {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .top-heading {
+        font-size: 2.75rem;
+    }
+
+    .top-info {
+        font-size: 1.1rem;
+    }
+}
+
 
 /*for desktop*/
 .make-order{
@@ -91,7 +132,18 @@ body {
     color:#FFF;
     font-size: 1.25rem;
     font-weight: 600;
+}
 
+@media screen and (max-width: 800px) {
+    .make-order{
+        position: fixed;
+        bottom: 10%;
+        right: 10%;
+        color: #083a0b;
+        font-size: 0.75rem;
+        font-weight: 600;
+        background-color: rgba(245, 245, 245, 0.301);
+    }
 }
 
 
